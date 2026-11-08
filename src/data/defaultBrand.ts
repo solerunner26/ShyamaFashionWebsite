@@ -1,0 +1,46 @@
+import type { BrandConfig } from '../types/store';
+
+export const DEFAULT_BRAND_CONFIG: BrandConfig = {
+  studioName: 'Shyama',
+  studioTagline: 'Surat Atelier · Everyday Women’s Silhouettes',
+  logoMode: 'monogram',
+  logoMonogram: 'S',
+  logoImageUrl: '',
+  heroHeadline: 'Unhurried comfort, tailored for every hour.',
+  heroSubheadline:
+    'Fluid linen palazzos, pure mulmul lounge pajamas, and relaxed tailored trousers — cut for Indian proportions with soft-back waistbands and deep everyday pockets.',
+  marqueePromo:
+    'Complimentary shipping across India above ₹999  ·  Pick any 2 pieces for an automatic 10% Wardrobe Privilege  ·  Free 7-day doorstep size exchange',
+  addressLine1: 'Studio 204, Textile Park Arcade, Ring Road',
+  addressLine2: 'Near Millennium Market, Begampura',
+  cityStatePin: 'Surat, Gujarat — 395002, India',
+  phone: '+91 98765 43210',
+  whatsapp: '919876543210',
+  supportEmail: 'care@shyamafashion.in',
+  instagramHandle: '@shyamafashion.atelier',
+  gstin: '24AABCS1429B1Z1',
+  storeHours: 'Mon – Sat, 10:00 AM – 7:30 PM IST',
+  freeShippingThreshold: 999,
+  prepaidExtraDiscountPct: 5,
+  themePreset: 'alabaster',
+  customToneA: '#8C4A32',
+  customToneB: '#1C1917',
+};
+
+export const COUPONS: Record<
+  string,
+  { code: string; pct: number; minOrder: number; description: string }
+> = {
+  SHYAMA10: {
+    code: 'SHYAMA10',
+    pct: 10,
+    minOrder: 999,
+    description: '10% welcome privilege on orders ₹999+',
+  },
+  WARDROBE15: {
+    code: 'WARDROBE15',
+    pct: 15,
+    minOrder: 1999,
+    description: '15% privilege on 2+ pieces above ₹1,999',
+  },
+};

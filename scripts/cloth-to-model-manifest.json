@@ -1,0 +1,37 @@
+{
+  "workflow": "Shyama Fashion — Cloth-Photo-to-5-Angle-Human-Model Studio Pipeline",
+  "targetDimensions": "768x1024 (3:4 vertical portrait)",
+  "instructions": [
+    "1. Place raw garment flat-lay or mannequin reference photos inside inputs/cloth/<productId>.jpg",
+    "2. Use Angle 1 prompt to generate the front full-body studio model image first.",
+    "3. Pass Angle 1 as the reference image for Angles 2-5 so model identity, lighting, and garment drape remain 100% consistent across all 5 views.",
+    "4. Save outputs to public/products/<productId>/angle-1.jpg .. angle-5.jpg or host on CDN and sync via Studio Setup -> Link Sync."
+  ],
+  "angleTemplates": [
+    {
+      "slot": "angle-1.jpg",
+      "label": "Front Full Look",
+      "promptTemplate": "Single undivided vertical portrait studio fashion photograph (9:16 portrait aspect ratio, no split screen, no collage) of a confident Gen-Z Indian female model standing full-body head-to-toe facing the camera wearing {{GARMENT_DESCRIPTION}}, natural skin texture, editorial DSLR 85mm lighting."
+    },
+    {
+      "slot": "angle-2.jpg",
+      "label": "Side Walking Silhouette",
+      "promptTemplate": "Single undivided vertical portrait studio fashion photograph (9:16 portrait aspect ratio) of the exact same model and {{GARMENT_DESCRIPTION}} in a dynamic 3/4 side walking stride showing side pocket placement, rise, and fabric movement."
+    },
+    {
+      "slot": "angle-3.jpg",
+      "label": "Back Waistband & Fall",
+      "promptTemplate": "Single undivided vertical portrait studio fashion photograph (9:16 portrait aspect ratio) of the exact same model and {{GARMENT_DESCRIPTION}} from a rear 3/4 angle glancing back over her shoulder, highlighting back waistband comfort and full-length drape."
+    },
+    {
+      "slot": "angle-4.jpg",
+      "label": "Waist & Fabric Close-Up",
+      "promptTemplate": "Single undivided vertical mid-shot fashion photograph (9:16 portrait aspect ratio) from waist to ankle of the same model wearing {{GARMENT_DESCRIPTION}}, hand resting in side pocket to showcase stitching, pleats, and fabric weave."
+    },
+    {
+      "slot": "angle-5.jpg",
+      "label": "Styled Street Editorial",
+      "promptTemplate": "Single undivided vertical dusk street-style lookbook photograph (9:16 portrait aspect ratio) of the exact same model wearing {{GARMENT_DESCRIPTION}} outside a modern neon-accented cafe terrace."
+    }
+  ]
+}
