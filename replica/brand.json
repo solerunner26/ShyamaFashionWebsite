@@ -1,0 +1,6 @@
+{
+  "name": "Shyama Fashion",
+  "avoid": ["Wrogn", "Virat Kohli", "USPL", "Universal Sportsbiz"],
+  "domains": ["wrogn.com", "gokwik.co", "kwikpass"],
+  "colors": ["#d32f2f"]
+}

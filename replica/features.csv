@@ -1,0 +1,21 @@
+feature,area,priority,original,clone,notes
+Offer announcement marquee with live promos,chrome,must,yes,yes,Scrolling promo + 1-tap coupon copy
+Floating translucent header with search wishlist bag,chrome,must,yes,yes,Apple Liquid Glass functional layer
+Visual category story circles strip,discovery,must,yes,yes,Palazzo Pajama Pants Leggings Trousers Kurtis Dresses
+Full-bleed editorial hero with animated two-tone neon gradient,discovery,must,yes,yes,Gen-Z neon animated mesh + attitude typography
+Shop-the-look editorial banners with paired product cards,stickiness,must,yes,yes,Clean-room adaptation of celebrity lookbook into Women's Studio Edits
+24 womenswear products with 5 distinct model angles each,catalog,must,yes,yes,120 verified female model images across 6 categories
+Scrubbable 5-angle preview directly on product cards,stickiness,must,no,yes,Enhancement for stickiness on hover and mobile touch
+Quick-add plus button and Quick-View sheet on cards,commerce,must,yes,yes,Zero-scroll-loss bag addition
+Best-price prepaid and coupon price breakdown on cards and PDP,commerce,must,yes,yes,Signature Indian D2C conversion pattern
+Interactive Check-Your-Size chart with Inches and Cm toggle,pdp,must,yes,yes,Waist Hip Inseam Length + Body vs Garment + Smart Fit Finder
+Key Highlights grid and 4-badge Wash Care section,pdp,must,yes,yes,Color Pattern Fabric Fit Rise Length Occasion + care icons
+Indian Pincode delivery ETA checker,pdp,must,yes,yes,Instant dispatch & COD/Prepaid availability check
+Angle & drape comparison slider + fullscreen zoom lightbox,pdp,should,no,yes,Emil clip-path interactive angle comparison
+Slide-over Bag with Complete-Your-Look cross-sells and tier bar,commerce,must,yes,yes,Free shipping + B2G15 + Prepaid 5% off calculator
+Wishlist vault and Recently Viewed sticky discovery rail,stickiness,must,yes,yes,Persisted across reloads so shoppers stick and return
+Instant Command-K visual search with trending Gen-Z vibe tags,discovery,should,yes,yes,Instant search across category fabric fit color
+Comprehensive customer activity tracker and UX friction diagnostics,analytics,must,no,yes,Tracks clicks dwell scroll angles size-hesitation rage-clicks funnel drop-offs
+Dynamic Studio Brand Logo Address and Theme customizer,admin,must,no,yes,Full UI scope to change name logo address contact and two-tone neon theme
+Product and 5-angle image manager with upload URL and JSON link sync,admin,must,no,yes,Full scope to swap AI photos with real cloth-to-model shoots later
+Celebrity men's wear endorsements and men's catalog,excluded,could,yes,skip,Out of scope — Shyama Fashion is 100% Women's Wear with original identity
